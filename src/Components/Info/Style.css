@@ -1,0 +1,79 @@
+.owners {
+    background-image: url('../../Assets/WhatsApp\ Image\ 2022-07-16\ at\ 7.47.39\ PM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    clip-path: circle(119vw at 110vw 49%);
+}
+
+.box__objetivos {
+    padding-inline-start: 0px;
+}
+
+.box__objetivos--title {
+    font-size: 2em;
+    color: rgb(145, 150, 150);
+    text-align: left;
+    margin-left: 15%;
+}
+
+.box__objetivos--tema-1 {
+    background-image: url('../../Assets/WhatsApp\ Image\ 2022-07-16\ at\ 7.08.15\ PM.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-attachment: fixed;
+    width: 90vw;
+    height: 40vh;
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.box__objetivos--list {
+    list-style: none;
+    font-size: 0.8em;
+    margin: 5% 15%;
+    text-align:start;
+    background-color: #FFFFFF;
+    color: #828282;
+    font-weight: 800;  
+}
+
+.box__objetivos--tema-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url('../../Assets/mision\ 1.jpeg');
+    width: 80vw;
+    height: 40vh;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 800;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box__objetivos--tema-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url('../../Assets/formas\ de\ trabajo\ 2.jpeg');
+    width: 80vw;
+    height: 40vh;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 800;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

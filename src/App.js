@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Start from "./Components/Start/Start";
+import React from "react";
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Info from "./Components/Info/info";
+import Nav from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
+import Donaciones from './Components/donaciones/donaciones'
+import Animales from './Components/Animals/animales'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Nav></Nav>
+        <Routes>
+          <Route path="/" element={<Start/>}/>
+          <Route path="/info" element={<Info/>}/>
+          <Route path="/Animales" element={<Animales/>}/>
+          <Route path="/Donaciones" element={<Donaciones/>}/>
+          <Route path="/*" element={"Ruta de error"}/>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter> 
     </div>
   );
-}
+};
 
 export default App;
