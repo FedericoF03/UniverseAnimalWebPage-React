@@ -2,7 +2,7 @@
 /*Mobile*/
 
 .container__nav {
-    height: 18vh;
+    height: 12vh;
     background-color: #3fef96;
     display: flex;
     justify-content: center;
@@ -15,13 +15,13 @@
 
 .nav--menu-Burger {
     position: absolute;
-    height: 10vh;
-    right: 10px;
+    height: 5vh;
+    right: 15px;
 }
 
 .nav--menu {
     position: absolute;
-    top: 18vh;
+    top: 12vh;
     width: 100vw;
     background-color: rgb(132, 238, 146);
     color: rgb(5, 5, 5);

@@ -12,7 +12,7 @@ const Galeria = ()=>{
     }, [])
 
     let peticion =  async ()=>{
-        let url = "https://superlative-hotteok-d32567.netlify.app/galeria.json"
+        let url = "http://localhost:3000/galeria.json"
         let resJ = await fetch(url)
         let res = await resJ.json()
         setGaleryDinamic(res)    
