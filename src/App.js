@@ -5,7 +5,7 @@ import Info from "./Components/Info/info";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Donaciones from './Components/donaciones/donaciones'
-import Animales from './Components/Animals/animales'
+import Galeria from './Components/Galeria/Galeria'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Start/>}/>
           <Route path="/info" element={<Info/>}/>
-          <Route path="/Animales" element={<Animales/>}/>
+          <Route path="/Galeria" element={<Galeria/>}/>
           <Route path="/Donaciones" element={<Donaciones/>}/>
           <Route path="/*" element={"Ruta de error"}/>
         </Routes>

@@ -19,6 +19,6 @@
     font-size: 3em;
     filter: grayscale(30%);
     box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
--webkit-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
--moz-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
+    -webkit-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
+    -moz-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
 }

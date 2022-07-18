@@ -1,7 +1,11 @@
 const Donaciones = ()=>{
     return (
         <div>
-            <p>Prueba de donaciones</p>
+            <h3>Donaciones</h3>
+            <p>Medios para aportar su granito de arena</p>
+            <div>
+                <p>*datos*</p>
+            </div>
         </div>
     )
 }

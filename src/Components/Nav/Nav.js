@@ -45,7 +45,7 @@ const Nav = ()=>{
                 <li className='nav__list'>
                     <Link className='nav__list--link' 
                     onClick={menuButton} 
-                    to='/animales'>Animales
+                    to='/Galeria'>Animales
                     </Link>
                 </li>
                 <li className='nav__list'>
