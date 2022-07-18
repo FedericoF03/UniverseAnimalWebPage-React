@@ -12,7 +12,8 @@ const Galeria = ()=>{
     }, [])
 
     let peticion =  async ()=>{
-        let resJ = await fetch('http://localhost:3000/galeria.json')
+        let url = "http://localhost:3000/galeria.json"
+        let resJ = await fetch(url)
         let res = await resJ.json()
         setGaleryDinamic(res)    
         setLoading(true)
