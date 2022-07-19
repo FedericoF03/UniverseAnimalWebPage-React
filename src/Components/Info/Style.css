@@ -88,5 +88,18 @@
 
 .prueba2 {
     width: 100vw;
-    margin: -50px;
+    margin: -20px;
+}
+
+.prueba3 {
+    width: 100vw;
+    margin: -20px;
+    transform: scaleX(-1);
+}
+
+.prueba4 {
+    text-align: center;
+    padding: 15px 15px 15px;
+    background-color: #69d376;
+    margin-bottom: 15px;
 }

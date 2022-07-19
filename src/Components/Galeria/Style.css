@@ -1,6 +1,5 @@
 .container__box__galeria {
     background-image: url('../../Assets/galeria/bg8.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,13 +23,7 @@
     
 }
 
-.image:hover {
-    display: flex;
-    filter: grayscale(300%);
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+
 
 .image {
    width: 80vw;

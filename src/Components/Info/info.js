@@ -1,5 +1,6 @@
 import './Style.css'
 import galeria2 from '../../Assets/galeria/Sin-título-1.svg'
+import galeria3 from '../../Assets/galeria/Sin-título-1 copy.svg'
 const Info = ()=>{
     return(
         <div className="container__general--85vh">
@@ -77,12 +78,15 @@ const Info = ()=>{
             </div>
             <div>
                 <h3 className='box__objetivos--tema-2'>Mision</h3>
-                <p>Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. 
-                    In in mauris nisl. Mauris non 
-                    nibh sit amet ante ornare tincidunt 
-                    consequat in justo. Fusce ultricies est eget 
-                </p>
+                <img className='prueba3' src={galeria3}></img>
+                <div className='prueba4'>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        In in mauris nisl. Mauris non 
+                        nibh sit amet ante ornare tincidunt 
+                        consequat in justo. Fusce ultricies est eget 
+                    </p>
+                </div>
             </div>
             <div>
                 <h3 className='box__objetivos--tema-3'>Forma de trabajo</h3>
