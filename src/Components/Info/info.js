@@ -103,7 +103,7 @@ const Info = ()=>{
             </div>
             <div>
                 <h3>Este trabajo de obras es gracias y junto a:</h3>
-                <img className='asociaciones' src={imageProyect('./asociacion-1.png')}></img>
+                <img className='asociaciones'></img>
             </div>
         </div>
     );
