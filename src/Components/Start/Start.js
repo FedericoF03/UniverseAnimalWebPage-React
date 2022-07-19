@@ -1,12 +1,8 @@
 import './Syle.css';
 import React, {} from "react";
 import image1 from '../../Assets/proyectos.jpeg'
-const imageProyect = require.context('../../Assets', true)
 
 const Start = ()=>{
-
-
-
 
     return(
         <>
