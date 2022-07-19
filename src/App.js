@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Nav></Nav>
+        <Nav/>
         <Routes>
           <Route path="/" element={<Start/>}/>
           <Route path="/info" element={<Info/>}/>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/Donaciones" element={<Donaciones/>}/>
           <Route path="/*" element={"Ruta de error"}/>
         </Routes>
-        <Footer></Footer>
+        <Footer/>
       </BrowserRouter> 
     </div>
   );

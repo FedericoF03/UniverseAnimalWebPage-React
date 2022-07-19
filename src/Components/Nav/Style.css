@@ -17,6 +17,7 @@
     position: absolute;
     height: 5vh;
     right: 15px;
+    cursor: pointer;
 }
 
 .nav--menu {
@@ -25,14 +26,16 @@
     width: 100vw;
     background-color: rgb(132, 238, 146);
     color: rgb(5, 5, 5);
-    padding-inline-start: 0px;  
+    padding-inline-start: 0px;
     margin: 0;
     list-style: none;
     text-align: center;
     clip-path: inset(0 0 0 100%);
     z-index: 99;
     opacity: 0;
+    display: flex;
     transition: clip-path 0.8s, opacity 0.5s;
+    flex-direction: column;
 }
 
 a:visited {
