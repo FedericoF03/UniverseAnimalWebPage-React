@@ -90,7 +90,7 @@
 
 .prueba3 {
     width: 100vw;
-    margin: -1px;
+    margin: -1px 0px;
     transform: scaleX(-1);
     display: block;
 }
@@ -111,6 +111,7 @@
 .box__objetivos--tema-66 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color:#69d376
 }

@@ -1,28 +1,23 @@
 import './Style.css'
 import image3 from '../../Assets/galeria/Sin-título-1.svg'
-
-const imageProyect = require.context('../../Assets', true)
+import aso from '../../Assets/asociacion-1.png'
 
 const Info = ()=>{
     return(
         <div className="container__general--85vh">
-            <div>
-                <h3 className='box__objetivos--title'>Mision</h3>
-                <img className='prueba3' src={image3} ></img>
-                <div className='box__objetivos--tema-66'>   
-                    <h3 className='box__objetivos--tema-2'></h3>
-                </div>
-                <div className='prueba4'>
-                    <p>
-                        Promover la concientizacion, cuidado y proteccion de la fauna silvestre, a traves de personal autorizado y especializado para la reinsercion de la fauna y proteccion de los habitats.
-                    </p>
-                </div>
-            </div>
+           <h3 className='box__objetivos--title'>Mision</h3>
+            <img className='prueba3' src={image3} ></img>
+            <div className='box__objetivos--tema-66'>   
+                <h3 className='box__objetivos--tema-2'></h3>
+                <p className='prueba4'>
+                    Promover la concientizacion, cuidado y proteccion de la fauna silvestre, a traves de personal autorizado y especializado para la reinsercion de la fauna y proteccion de los habitats.
+                </p>
+            </div>      
             <div>
                 <h3 className='box__objetivos--title'>Objetivos</h3>
                 <img className='prueba3' src={image3} ></img>
-                <img className='prueba2' ></img>
                 <div className='prueba'>
+                    <img className='prueba2' ></img>
                     <ul className='box__objetivos'>
                         <div className='box__objetivos--tema-1'></div>
                         <li className='box__objetivos--list'>
@@ -77,19 +72,22 @@ const Info = ()=>{
                     </ul>
                 </div>
             </div>
+            <h3 className='box__objetivos--title'>Vision</h3>
             <div>
-                <h3 className='box__objetivos--tema-3'>Vision</h3>
-                <p>
-                    Promover el cuidado y proteccion de la fauna con mayor facilidad,
-                    tener un equipo de profesionales a cargo para poder reaccionar a cualquier situacion emergente, 
-                    expandir la comunidad y generar autosustentabilidad, 
-                    asociarnos con diferentes comunidades para que todos alcancen sus objetivos y se cumplan con calidad asegurada.
-
-                </p>
+                <img className='prueba3' src={image3} ></img>
+                <div className='box__objetivos--tema-66'>   
+                    <h3 className='box__objetivos--tema-3'></h3>
+                    <p>
+                        el cuidado y proteccion de la fauna con mayor facilidad,
+                        tener un equipo de profesionales a cargo para poder reaccionar a cualquier situacion emergente, 
+                        expandir la comunidad y generar autosustentabilidad, 
+                        asociarnos con diferentes comunidades para que todos alcancen sus objetivos y se cumplan con calidad asegurada.
+                    </p>
+                </div>
             </div>
             <div>
                 <h3>Este trabajo de obras es gracias y junto a:</h3>
-                <img className='asociaciones'></img>
+                <img className='asociaciones' src={aso}></img>
             </div>
         </div>
     );
