@@ -3,7 +3,7 @@
 
 .container__nav {
     height: 12vh;
-    background-color: #3fef96;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
     position: absolute;
     top: 11.8vh;
     width: 100vw;
-    background-color: rgb(132, 238, 146);
+    background-color: #406525;
     color: rgb(5, 5, 5);
     padding-inline-start: 0px;
     margin: 0;
@@ -43,16 +43,15 @@ a:visited {
 }
 
 .nav__list {
-    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #36561f
 }
 
 .nav__list--link {
     text-decoration: none;
+    
 }
 
-.nav__list--link:hover {
-    background-color: rgba(196, 196, 196, 0.349);
-    padding: 2px 15px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 50px -5px white;
+.nav__list:hover {
+    background-color: #36561f;
 }

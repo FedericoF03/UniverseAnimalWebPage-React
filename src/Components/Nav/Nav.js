@@ -1,4 +1,4 @@
-import Logo from '../../Assets/imagen_2022-07-17_011016472-removebg-preview.png';
+import Logo from '../../Assets/Logo-UAWP-letras.jpg';
 import MenuBurger from '../../Assets/lines_menu_burger_icon_123889.png';
 import './Style.css';
 import React, { useState, useRef } from 'react';

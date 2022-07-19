@@ -1,5 +1,5 @@
 .owners {
-    background-image: url('../../Assets/WhatsApp\ Image\ 2022-07-16\ at\ 7.47.39\ PM.jpeg');
+    background-image: url('../../Assets/mision\ 2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,6 +17,7 @@
     color: rgb(145, 150, 150);
     text-align: left;
     margin-left: 15%;
+    margin-bottom: 0;
 }
 
 .box__objetivos--tema-1 {
@@ -51,13 +52,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background-image: url('../../Assets/mision\ 1.jpeg');
+    background-image: url("../../Assets/formas\ de\ trabajo\ 2.jpeg");
     width: 80vw;
     height: 40vh;
-    color: #ffffff;
-    font-size: 3em;
-    font-weight: 800;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,8 +90,9 @@
 
 .prueba3 {
     width: 100vw;
-    margin: -20px;
+    margin: -1px;
     transform: scaleX(-1);
+    display: block;
 }
 
 .prueba4 {
@@ -107,4 +105,12 @@
 .asociaciones {
     width: 140px;
     height: 130px;
+}
+
+
+.box__objetivos--tema-66 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#69d376
 }

@@ -1,67 +1,64 @@
 import './Style.css'
-import galeria2 from '../../Assets/galeria/Sin-título-1.svg'
-import galeria3 from '../../Assets/galeria/Sin-título-1 copy.svg'
-
+import image3 from '../../Assets/galeria/Sin-título-1.svg'
 
 const imageProyect = require.context('../../Assets', true)
 
 const Info = ()=>{
     return(
         <div className="container__general--85vh">
-            <h1>Sobre nosotros</h1>
-            <p><span>La Asociacion civil universo animal</span>
-                tiene su domicilio legal en la Provincia de 
-                Buenos Aires y se trata sobre una asociacion con el objetivo y mision de cuidar,
-                concientizar el medio ambiente y el cuidado de las especies animal que hay en este.
-            </p>
-            <div className='owners'></div>
+            <div>
+                <h3 className='box__objetivos--title'>Mision</h3>
+                <img className='prueba3' src={image3} ></img>
+                <div className='box__objetivos--tema-66'>   
+                    <h3 className='box__objetivos--tema-2'></h3>
+                </div>
+                <div className='prueba4'>
+                    <p>
+                        Promover la concientizacion, cuidado y proteccion de la fauna silvestre, a traves de personal autorizado y especializado para la reinsercion de la fauna y proteccion de los habitats.
+                    </p>
+                </div>
+            </div>
             <div>
                 <h3 className='box__objetivos--title'>Objetivos</h3>
-                <img className='prueba2' src={galeria2}></img>
+                <img className='prueba3' src={image3} ></img>
+                <img className='prueba2' ></img>
                 <div className='prueba'>
                     <ul className='box__objetivos'>
-                        <div className='box__objetivos--tema-1'>texto</div>
+                        <div className='box__objetivos--tema-1'></div>
                         <li className='box__objetivos--list'>
                         Promover, e impulsar el cuidado y la reinsercion de la 
-                        fauna silvestre, compuesta de mamiferos aves y reptiles autoctonas,
-                        preexistente en las zonas, amenazadas por el avance de la actividad humana
+                        fauna silvestre, preexistente en las zonas, amenazadas por el avance de la actividad humana.
                         </li>
                         <li className='box__objetivos--list'>
                         Incentivar los estudios, programas y proyectos a traves de
                         exposiciones, charlas educativas en instituciones y colegios, para
-                        dinfundir el conocimiento y la importancia de los animales
-                        vertebrados e invertebrados que se encuentra en su estado
-                        natural de libertad donde habita de forma permanente, circunstancial o momentanea
-                        en cualquier ambiente natural o artificial. todas ellas seran desarrolladas
-                        sin fines de lucro, por profesionales y/o personal habilitado.
+                        dinfundir el conocimiento y la importancia de los animales que se encuentra en su estado
+                        natural donde habita en cualquier ambiente natural o artificial. 
+                        todas ellas seran desarrolladas sin fines de lucro, por profesionales y/o personal habilitado.
                         </li>
                         <li className='box__objetivos--list'>
                         Brindar asesoramiento juridico e informacion a los asociados, a la comunidad 
                         y de formacion profesional, a traves de la web, la elaboracion de
-                        publicaciones periodistica en capacitacion y asesoria para el manejo, proteccion
-                        y conservacion de la fauna silvetres, y de los animales domesticos, a cargos de
+                        publicaciones periodistica para el manejo, proteccion y conservacion de la fauna silvetres,
+                        y de los animales domesticos, a cargos de
                         profesionales y/o personal habilitado.
                         </li>
                         <li className='box__objetivos--list'>
                         Generar y apoyar iniciativas propias de esta asociacion,
                         fomentando la creacion de centros de faunas silvestres
-                        amenazadas, para la conservacion y contribucion a la disminucion
-                        de las probalidades de extincion de especies silvestres de alto
-                        significado, promoviendo su recuperacion, y la continuidad
+                        amenazadas, contribucion a la disminucion de las probalidades de extincion de especies, 
+                        promoviendo su recuperacion, y la continuidad
                         de los procesos naturales, La que se encontrara a disposicion
-                        de consulta tanto de especialistas como aficionados y asi orientar
-                        a mejorar la calidad de vida del hombre en el ecosistema.
+                        de consulta tanto de especialistas como aficionados.
                         </li>
                         <li className='box__objetivos--list'>
                         Relacionarse y/o incorporarse a las federaciones y confederaciones,
-                        entidades y organismos de caracter publico y/o privado dedicados a fines
-                        similares previa adopcion de los acuerdos pertinentes.
+                        entidades y organismos de caracter publico y/o privado con el mismo objetivo de la conservacion de la fauna y su habitat
                         </li>
                         <li className='box__objetivos--list'>
                         Promover e intercambiar informacion entre asociados, publicos en general, 
                         sobre los diversos temas que se vinculan con la zoologia, biologia, fisiologia
-                        y etologia concretando la formacion de una biblioteca, hemeroteca, videoteca, la cual se regira conforma
-                        a las leyes que rigen a las bibliotecas.
+                        y etologia concretando la formacion de una biblioteca, hemeroteca, videoteca.
                         </li>
                         <li className='box__objetivos--list'>
                         Estimular y desarrollar programas, servicios, organizando viajes y actividades
@@ -74,31 +71,20 @@ const Info = ()=>{
                         en la sanidad animal, la calidad de la atencion sanitaria, su accesibilidad y sostenibilidad
                         a nivel: Profesion, tecnico, cientifico y social con organismos gubernamentales, organismos
                         no gubernamentales, Organismo nacionales, Internacionales, Universidades, Empresas Publicas y/o privadas,
-                        Nacionales o Extranjeras para llevar adelante los fines de esta entidad. Todas las actividades seran
-                        desarrolladas sin fines de lucro y en cuanto correspondan, por personal idoneo o profesion habilitado.
+                        Nacionales o Extranjeras para llevar adelante los fines de esta entidad. 
+                        Todas las actividades seran desarrolladas sin fines de lucro y en cuanto correspondan, por personal profesional habilitado.
                         </li>
                     </ul>
                 </div>
             </div>
             <div>
-                <h3 className='box__objetivos--tema-2'>Mision</h3>
-                <img className='prueba3' src={galeria3}></img>
-                <div className='prueba4'>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. 
-                        In in mauris nisl. Mauris non 
-                        nibh sit amet ante ornare tincidunt 
-                        consequat in justo. Fusce ultricies est eget 
-                    </p>
-                </div>
-            </div>
-            <div>
-                <h3 className='box__objetivos--tema-3'>Forma de trabajo</h3>
-                <p>Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. 
-                    In in mauris nisl. Mauris non 
-                    nibh sit amet ante ornare tincidunt 
-                    consequat in justo. Fusce ultricies est eget 
+                <h3 className='box__objetivos--tema-3'>Vision</h3>
+                <p>
+                    Promover el cuidado y proteccion de la fauna con mayor facilidad,
+                    tener un equipo de profesionales a cargo para poder reaccionar a cualquier situacion emergente, 
+                    expandir la comunidad y generar autosustentabilidad, 
+                    asociarnos con diferentes comunidades para que todos alcancen sus objetivos y se cumplan con calidad asegurada.
+
                 </p>
             </div>
             <div>

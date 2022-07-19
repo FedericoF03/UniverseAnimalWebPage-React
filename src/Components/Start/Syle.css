@@ -8,9 +8,10 @@
 .hero-img {
     width: 100vw;
     height: 40vh;
-    background-image: url('../../Assets/mision\ 2.jpeg');
+    background-image: url('../../Assets/WhatsApp\ Image\ 2022-07-16\ at\ 7.47.39\ PM.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
