@@ -22,3 +22,12 @@
     -webkit-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
     -moz-box-shadow: 10px 14px 400px -89px rgba(0,0,0,0.96) inset;
 }
+
+.proyects {
+    width: 100vw;
+    height: 50vh;
+}
+
+.flex {
+    display: flex;
+}

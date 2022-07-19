@@ -1,6 +1,10 @@
 import './Style.css'
 import galeria2 from '../../Assets/galeria/Sin-título-1.svg'
 import galeria3 from '../../Assets/galeria/Sin-título-1 copy.svg'
+
+
+const imageProyect = require.context('../../Assets', true)
+
 const Info = ()=>{
     return(
         <div className="container__general--85vh">
@@ -96,6 +100,10 @@ const Info = ()=>{
                     nibh sit amet ante ornare tincidunt 
                     consequat in justo. Fusce ultricies est eget 
                 </p>
+            </div>
+            <div>
+                <h3>Este trabajo de obras es gracias y junto a:</h3>
+                <img className='asociaciones' src={imageProyect('./asociacion-1.png')}></img>
             </div>
         </div>
     );
