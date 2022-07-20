@@ -1,6 +1,8 @@
 import './Style.css'
 import image3 from '../../Assets/galeria/Sin-título-1.svg'
 import aso from '../../Assets/asociacion-1.png'
+import aso1 from '../../Assets/logo-bomberos.png'
+import aso2 from '../../Assets/logo-cabalho.png'
 
 const Info = ()=>{
     return(
@@ -87,7 +89,11 @@ const Info = ()=>{
             </div>
             <div>
                 <h3>Este trabajo de obras es gracias y junto a:</h3>
-                <img className='asociaciones' src={aso}></img>
+                <div className='flex aso'>
+                    <img className='asociaciones' src={aso}></img>
+                    <img className='asociaciones' src={aso1}></img>
+                    <img className='asociaciones' src={aso2}></img>
+                </div>
             </div>
         </div>
     );

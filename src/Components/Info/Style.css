@@ -65,7 +65,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-image: url('../../Assets/formas\ de\ trabajo\ 2.jpeg');
+    background-image: url('../../Assets/mision 1.jpeg');
     width: 80vw;
     height: 40vh;
     color: #ffffff;
@@ -103,8 +103,9 @@
 }
 
 .asociaciones {
-    width: 140px;
+    width: min-content;
     height: 130px;
+    margin: auto;
 }
 
 
@@ -114,4 +115,9 @@
     flex-direction: column;
     align-items: center;
     background-color:#69d376
+}
+
+.aso {
+    overflow-x: scroll;
+    margin-bottom: 15px;
 }
