@@ -1,4 +1,4 @@
-import Start from "./Components/Start/Start";
+import Index from "./Components/Index/Index";
 import React from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Info from "./Components/Info/info";
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Routes>
-          <Route path="/" element={<Start/>}/>
+          <Route path="/" element={<Index/>}/>
           <Route path="/info" element={<Info/>}/>
           <Route path="/Galeria" element={<Galeria/>}/>
           <Route path="/Donaciones" element={<Donaciones/>}/>

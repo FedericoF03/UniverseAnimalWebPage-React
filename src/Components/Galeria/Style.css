@@ -11,6 +11,7 @@
     color: #FFFFFF;
     font-size: 3em;
     font-weight: 800;
+    font-style: italic;
     
 }
 
@@ -26,8 +27,9 @@
 
 
 .image {
-   width: 80vw;
-   height: 40vh;
-   overflow: hidden;
-   border-radius: 7px;
+    width: 250px;
+    margin: 0px 15px;
+    height: 45vh;
+    overflow: hidden;
+    border-radius: 7px;
 }

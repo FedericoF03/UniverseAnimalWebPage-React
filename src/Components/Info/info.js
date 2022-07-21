@@ -17,7 +17,7 @@ const Info = ()=>{
             </div>      
             <div>
                 <h3 className='box__objetivos--title'>Objetivos</h3>
-                <img className='prueba3' src={image3} ></img>
+                <img className='prueba3--invert' src={image3} ></img>
                 <div className='prueba'>
                     <img className='prueba2' ></img>
                     <ul className='box__objetivos'>
@@ -79,7 +79,7 @@ const Info = ()=>{
                 <img className='prueba3' src={image3} ></img>
                 <div className='box__objetivos--tema-66'>   
                     <h3 className='box__objetivos--tema-3'></h3>
-                    <p>
+                    <p className='prueba4'>
                         el cuidado y proteccion de la fauna con mayor facilidad,
                         tener un equipo de profesionales a cargo para poder reaccionar a cualquier situacion emergente, 
                         expandir la comunidad y generar autosustentabilidad, 
@@ -88,7 +88,7 @@ const Info = ()=>{
                 </div>
             </div>
             <div>
-                <h3>Este trabajo de obras es gracias y junto a:</h3>
+                <h3>Nuestros socios:</h3>
                 <div className='flex aso'>
                     <img className='asociaciones' src={aso}></img>
                     <img className='asociaciones' src={aso1}></img>

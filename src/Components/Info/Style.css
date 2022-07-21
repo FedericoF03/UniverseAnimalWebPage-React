@@ -29,12 +29,12 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-attachment: fixed;
     width: 90vw;
     height: 40vh;
     color: aliceblue;
     font-size: 3em;
     font-weight: 600;
+    border-radius: 15px;
 }
 
 .box__objetivos--list {
@@ -58,6 +58,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
 }
 
 .box__objetivos--tema-3 {
@@ -74,6 +75,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
 }
 
 .prueba {
@@ -95,11 +97,19 @@
     display: block;
 }
 
+.prueba3--invert {
+    width: 100vw;
+    margin: -1px 0px;
+    display: block;
+}
+
 .prueba4 {
     text-align: center;
     padding: 15px 15px 15px;
     background-color: #69d376;
     margin-bottom: 15px;
+    color: #FFFFFF;
+    font-weight: 800;
 }
 
 .asociaciones {
@@ -120,4 +130,5 @@
 .aso {
     overflow-x: scroll;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
