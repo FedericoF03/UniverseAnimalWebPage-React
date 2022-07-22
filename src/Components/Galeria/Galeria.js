@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './Style.css';
 
 const animalsGalery = require.context('../../Assets/galeria', true);
-let url = "http://localhost:3000/galeria.json"
+let url = "https://superlative-hotteok-d32567.netlify.app/galeria.json"
 
 const Galeria = ()=>{
     const [galeryDinamic, setGaleryDinamic] = useState()
