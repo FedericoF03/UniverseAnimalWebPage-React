@@ -3,7 +3,7 @@ import face from '../../Assets/icons8-facebook-nuevo.svg'
 import ig from '../../Assets/iconmonstr-instagram-11.svg'
 import email from '../../Assets/email-svgrepo-com.svg'
 import wp from '../../Assets/icons8-whatsapp.svg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Footer = ()=>{
 
@@ -16,26 +16,28 @@ const Footer = ()=>{
             </div>
             <div className='flex box__links'>
                 <p className='box__links--titles'>Manera de colaborar</p>
-                <Link 
-                className='box__links--link'
-                to='/'
-                onClick={window.scrollY = "0"}
-                >Inicio</Link>
-                <Link 
-                className='box__links--link'
-                to='/info'
-                onClick={window.scrollY = "0"}
-                >Conoce sobre nosotros</Link>
-                <Link 
-                className='box__links--link'
-                to='/Galeria'
-                onClick={window.scrollY = "0"}
-                >Galeria</Link>
-                <Link 
-                className='box__links--link'
-                to='/donaciones'
-                onClick={window.scrollY = "0"}
-                >Donaciones</Link>
+                <ul className='flex box__footer__unorde__links'>
+                    <Link 
+                    className='box__links--link'
+                    onClick={window.scrollY = "0"}
+                    to='/'
+                    >Inicio</Link>
+                    <Link 
+                    className='box__links--link'
+                    to='/info'
+                    onClick={window.scrollY = "0"}
+                    >Conoce sobre nosotros</Link>
+                    <Link 
+                    className='box__links--link'
+                    to='/Galeria'
+                    onClick={window.scrollY = "0"}
+                    >Galeria</Link>
+                    <Link 
+                    className='box__links--link'
+                    to='/donaciones'
+                    onClick={window.scrollY = "0"}
+                    >Donaciones</Link>
+                </ul>
                 <p className='box__links--titles'>Contacto</p>
                 <div className='flex conteiner__box--contact'>
                     <div className='box--contact'>

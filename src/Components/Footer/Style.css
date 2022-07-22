@@ -9,6 +9,13 @@
     height: min-content;
 }
 
+.box__footer__unorde__links {
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0;
+    gap: 10px;
+}
+
 .box__follow-text {
     font-size: 1.85em;
     font-weight: 600;
