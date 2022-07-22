@@ -17,16 +17,16 @@ const Index = ()=>{
     }, [])
 
     const petition = async()=>{
-        let json = await fetch("http://api.mediastack.com/v1/news?access_key=f29879c9d3d289744466591dd54632c0&languages=es&keywords=fauna&limit=3");
+        let json = await fetch("https://newsapi.org/v2/everything?q=fauna silvestre&language=es&pageSize=3&apiKey=99212ed99ab14b529a072481f0c1b2a6");
         let res = await json.json();
-        res.data.forEach(el=> {
-                
+        console.log(res)
+        res.articles.forEach(el=> {     
             let object = {
                     title: el.title,
                     description: el.description,
                     url: el.url,
-                    source: el.source,
-                    img: el.image,
+                    source: el.source.name,
+                    img: el.urlToImage,
                 };
                 setInfo(info=>[...info, object]);
         });
