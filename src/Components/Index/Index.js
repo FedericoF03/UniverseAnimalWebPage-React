@@ -23,7 +23,6 @@ const Index = ()=>{
             }
         });
         let res = await json.json();
-        console.log(res)
         res.articles.forEach(el=> {     
             let object = {
                     title: el.title,

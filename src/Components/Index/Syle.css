@@ -91,3 +91,8 @@
 .charge {
     margin: auto;
 }
+
+.notice--description {
+    overflow-y: auto;
+    height: 100px;
+}

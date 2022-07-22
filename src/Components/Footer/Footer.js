@@ -9,6 +9,7 @@ const Footer = ()=>{
 
     return(
         <div className="container__footer">
+            <div className='footer--filter'>
             <p className='box__follow-text'>Siguenos!</p>
             <div>
                 <a href='https://www.facebook.com/UniversoAnimalArgentina'><img className='box__red-social' src={face}></img></a>
@@ -49,6 +50,7 @@ const Footer = ()=>{
                         <a>11-24040708</a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
