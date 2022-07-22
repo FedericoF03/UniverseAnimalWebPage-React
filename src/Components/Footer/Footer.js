@@ -24,18 +24,18 @@ const Footer = ()=>{
                     >Inicio</Link>
                     <Link 
                     className='box__links--link'
-                    onClick={window.scrollY = "0"}
+                    
                     to='/info'
                     >Conoce sobre nosotros</Link>
                     <Link 
                     className='box__links--link'
                     to='/Galeria'
-                    onClick={window.scrollY = "0"}
+                    
                     >Galeria</Link>
                     <Link 
                     className='box__links--link'
                     to='/donaciones'
-                    onClick={window.scrollY = "0"}
+                    
                     >Donaciones</Link>
                 </ul>
                 <p className='box__links--titles'>Contacto</p>
