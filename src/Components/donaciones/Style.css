@@ -1,0 +1,22 @@
+.box__container__donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate--description {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.card__donate {
+    border: 1px solid black;
+    padding: 50px 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card__donate--title {
+    text-align: center;
+    width: 160px;
+}

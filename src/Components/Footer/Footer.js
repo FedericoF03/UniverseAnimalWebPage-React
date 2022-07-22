@@ -12,7 +12,7 @@ const Footer = ()=>{
             <p className='box__follow-text'>Siguenos!</p>
             <div>
                 <a href='https://www.facebook.com/UniversoAnimalArgentina'><img className='box__red-social' src={face}></img></a>
-                <img className='box__red-social' src={ig}></img>
+                <a href='https://www.instagram.com/Julio.espinosa.54738/'><img className='box__red-social' src={ig}></img></a>
             </div>
             <div className='flex box__links'>
                 <p className='box__links--titles'>Manera de colaborar</p>
@@ -28,7 +28,7 @@ const Footer = ()=>{
                 >Conoce sobre nosotros</Link>
                 <Link 
                 className='box__links--link'
-                to='/galeria'
+                to='/Galeria'
                 onClick={window.scrollY = "0"}
                 >Galeria</Link>
                 <Link 

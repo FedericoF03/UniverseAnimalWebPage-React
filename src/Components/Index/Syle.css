@@ -41,9 +41,29 @@
 .box__proyects-and-notice {
     border-bottom: 1px solid rgb(82, 82, 82);
     background-color: rgb(227 224 224);
-    padding-top: 20px;
-    padding-bottom: 20px;
     margin-bottom: 20px;
+    overflow-y: auto;
+    height: max-content;
+    padding: 20px 30px;
+}
+
+.box__slider {
+    align-items: center;
+}
+
+.slider-lft {
+    padding: 25px 25px 25px 0px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.slider-rgt {
+    padding: 25px 0px 25px 25px;
+    position: absolute;
+    right: 0px;
+    background-color: transparent;
+    border: none;
 }
 
 .box__index--proyects-notice--title {
