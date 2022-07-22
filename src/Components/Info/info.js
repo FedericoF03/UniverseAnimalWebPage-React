@@ -1,8 +1,8 @@
 import './Style.css'
-import image3 from '../../Assets/galeria/Sin-título-1.svg'
-import aso from '../../Assets/asociacion-1.png'
-import aso1 from '../../Assets/logo-bomberos.png'
-import aso2 from '../../Assets/logo-cabalho.png'
+import image3 from '../../../public/assets/Galeria/Sin-título-1.svg'
+import aso from '../../../public/assets/asociacion-1.png'
+import aso1 from '../../../public/assets/logo-bomberos.png'
+import aso2 from '../../../public/assets/logo-cabalho.png'
 
 const Info = ()=>{
     return(
