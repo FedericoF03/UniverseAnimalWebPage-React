@@ -46,7 +46,7 @@ const Index = ()=>{
             <Link 
             className='link--info' 
             to='/info'
-            onClick={window.scrollTo(0,0)}
+            onClick={()=>window.scrollTo(0,0)}
             >Leer más</Link>     
             <h3 className='box__index--proyects-notice--title'>Proyectos</h3>
             <div>
