@@ -25,7 +25,7 @@ const Footer = ()=>{
                     <Link 
                     className='box__links--link'
                     to='/info'
-                    onClick={window.scrollY = "0"}
+
                     >Conoce sobre nosotros</Link>
                     <Link 
                     className='box__links--link'
