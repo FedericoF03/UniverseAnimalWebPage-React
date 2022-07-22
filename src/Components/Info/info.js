@@ -1,14 +1,11 @@
 import './Style.css'
-import image3 from '../../../public/assets/Galeria/Sin-título-1.svg'
-import aso from '../../../public/assets/asociacion-1.png'
-import aso1 from '../../../public/assets/logo-bomberos.png'
-import aso2 from '../../../public/assets/logo-cabalho.png'
+import images from '../../utils/image_object'
 
 const Info = ()=>{
     return(
         <div className="container__general--85vh">
            <h3 className='box__info--title'>Mision</h3>
-            <img className='box__info--svg-decoration' src={image3} ></img>
+            <img className='box__info--svg-decoration' src={images.img1} ></img>
             <div className='box__info--background-green'>   
                 <div className='box__mision--img'></div>
                 <p className='box__info--text'>
@@ -17,7 +14,7 @@ const Info = ()=>{
             </div>      
             <div>
                 <h3 className='box__info--title'>Objetivos</h3>
-                <img className='box__info--svg-decoration-invert' src={image3} ></img>
+                <img className='box__info--svg-decoration-invert' src={images.img1} ></img>
                 <div className='box__objectives__background-green'>
                     <img className='box__objectives--img' ></img>
                     <ul className='box__objectives'>
@@ -75,7 +72,7 @@ const Info = ()=>{
             </div>
             <h3 className='box__info--title'>Vision</h3>
             <div>
-                <img className='box__info--svg-decoration' src={image3} ></img>
+                <img className='box__info--svg-decoration' src={images.img1} ></img>
                 <div className='box__info--background-green'>   
                     <h3 className='box__vision--img'></h3>
                     <p className='box__info--text'>
@@ -89,9 +86,9 @@ const Info = ()=>{
             <div>
                 <h3>Nuestros socios:</h3>
                 <div className='flex box__associations'>
-                    <img className='associations' src={aso}></img>
-                    <img className='associations' src={aso1}></img>
-                    <img className='associations' src={aso2}></img>
+                    <img className='associations' src={images.img2}></img>
+                    <img className='associations' src={images.img3}></img>
+                    <img className='associations' src={images.img4}></img>
                 </div>
             </div>
         </div>
