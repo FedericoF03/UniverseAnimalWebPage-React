@@ -75,7 +75,7 @@ const Index = ()=>{
                 img={info[numberSlider].img}
                 key={info[numberSlider + "1"]}
                 ></NoticesApi>
-                : <div>Cargando...</div>
+                : <div className='charge'>Cargando...</div>
             }
             <button 
             className='slider-rgt'
