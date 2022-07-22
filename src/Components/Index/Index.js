@@ -17,16 +17,20 @@ const Index = ()=>{
     }, [])
 
     const petition = async()=>{
-        let json = await fetch("https://newsapi.org/v2/everything?q=fauna silvestre&language=es&pageSize=3&apiKey=99212ed99ab14b529a072481f0c1b2a6");
+        let json = await fetch("https://api.newscatcherapi.com/v2/search?q=fauna&lang=es&page_size=3", {
+            headers: {
+                'x-api-key': "hebVlMH9EQi6KnFEPtGkEzu1HmaStCaJJ6GBM9gHoBc"
+            }
+        });
         let res = await json.json();
         console.log(res)
         res.articles.forEach(el=> {     
             let object = {
                     title: el.title,
-                    description: el.description,
-                    url: el.url,
-                    source: el.source.name,
-                    img: el.urlToImage,
+                    description: el.summary,
+                    url: el.link,
+                    source: el.rights,
+                    img: el.media,
                 };
                 setInfo(info=>[...info, object]);
         });
