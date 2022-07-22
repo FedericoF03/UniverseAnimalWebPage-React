@@ -1,17 +1,40 @@
 import './Syle.css';
-import React, {} from "react";
+import NoticesApi from './NoticesApi/NoticeApi';
+import React, { useEffect, useState } from "react";
 import {Link} from 'react-router-dom';
-import quemaIlegal from '../../Assets/proyectos.jpeg'
-import logoAso from '../../Assets/Logo-sin-nombre.png'
+import quemaIlegal from '../../Assets/proyectos.jpeg';
+import logoAso from '../../Assets/Logo-sin-nombre.png';
 
 const Index = ()=>{
+
+    const [info, setInfo] = useState([]);
+
+    useEffect(()=>{
+        petition();
+    }, [])
+
+    const petition = async()=>{
+        let json = await fetch("http://api.mediastack.com/v1/news?access_key=f29879c9d3d289744466591dd54632c0&languages=es&keywords=fauna&limit=3");
+        let res = await json.json();
+        res.data.forEach((el, index) => {
+                
+            let object = {
+                    title: el.title,
+                    description: el.description,
+                    url: el.url,
+                    source: el.source,
+                    img: el.image,
+                };
+                setInfo(info=>[...info, object]);
+        });
+    };
 
     return(
         <>
         <div className="container__general--85vh">
             <div className='hero-img'></div>
             <h1 className='box__index--title'>Quienes somos</h1>
-            <img className='asociaciones' src={logoAso}></img>
+            <img className='box__logo--aso' src={logoAso}></img>
             <p className="box__index--info-Company">Somos una <span>Asociacion civil</span> que 
                 tiene su domicilio en la Provincia de 
                 Buenos Aires con el objetivo y mision de cuidar,
@@ -22,13 +45,27 @@ const Index = ()=>{
             to='/info'
             onClick={window.scrollY = "0"}
             >Leer más</Link>     
-            <h1>Proyectos</h1>
+            <h3 className='box__index--proyects-notice--title'>Proyectos</h3>
             <div>
-                <div className='notice'>
+                <div className='box__proyects-and-notice'>
                     <img className='proyects' src={quemaIlegal}></img>
                     <p>Documetacion sobre quema ilegal en misiones.</p>
                 </div>
             </div>
+            <h3 className='box__index--proyects-notice--title'>Noticias de la semana</h3>
+            <div>{
+                info.length === 3
+                ?info.map((el, index)=>
+                <NoticesApi
+                title={el.title}
+                description={el.description}
+                url={el.url}
+                source={el.source}
+                img={el.img}
+                key={index}
+                ></NoticesApi>)
+                : <div>Cargando...</div>
+            }</div>
         </div>
         </>
     );

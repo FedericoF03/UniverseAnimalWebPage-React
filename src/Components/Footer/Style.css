@@ -31,7 +31,10 @@
 
 .box__links--link:hover {
     color: #ffffff;
-    background-color: transparent;
+}
+
+.box__links--titles {
+    font-size: 1.5em;
 }
 
 .conteiner__box--contact {
@@ -52,4 +55,5 @@
 
 .box--email-wp {
     width: 50px;
+    margin-bottom: 5px;
 }

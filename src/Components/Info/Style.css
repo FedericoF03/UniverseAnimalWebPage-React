@@ -1,26 +1,66 @@
-.owners {
-    background-image: url('../../Assets/mision\ 2.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 60vh;
-    clip-path: circle(119vw at 110vw 49%);
-}
 
-.box__objetivos {
-    padding-inline-start: 0px;
-}
-
-.box__objetivos--title {
+.box__info--title {
     font-size: 2.5em;
     color: rgb(145, 150, 150);
     text-align: left;
-    margin-left: 15%;
-    margin-bottom: 0;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-bottom: -30px;
 }
 
-.box__objetivos--tema-1 {
+.box__info--svg-decoration {
+    width: 100vw;
+    margin: -1px 0px;
+    transform: scaleX(-1);
+    display: block;
+}
+
+.box__info--background-green {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#69d376
+}
+
+.box__mision--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assets/formas\ de\ trabajo\ 2.jpeg");
+    width: 80vw;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.box__info--text {
+    text-align: center;
+    padding: 15px 15px 15px;
+    background-color: #69d376;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+
+.box__info--svg-decoration-invert {
+    width: 100vw;
+    margin: -1px 0px;
+    display: block;
+}
+
+.box__objectives__background-green {
+    width: 100vw;
+    background-color: #69d376;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+
+
+.box__objectives--img {
     background-image: url('../../Assets/WhatsApp\ Image\ 2022-07-16\ at\ 7.08.15\ PM.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +77,11 @@
     border-radius: 15px;
 }
 
-.box__objetivos--list {
+.box__objectives {
+    padding-inline-start: 0px;
+}
+
+.box__objectives--list {
     list-style: none;
     font-size: 0.8em;
     margin: 5% 15%;
@@ -48,20 +92,9 @@
     background-color: #69d376;
 }
 
-.box__objetivos--tema-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../../Assets/formas\ de\ trabajo\ 2.jpeg");
-    width: 80vw;
-    height: 40vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-}
 
-.box__objetivos--tema-3 {
+
+.box__vision--img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,57 +111,18 @@
     border-radius: 15px;
 }
 
-.prueba {
-    width: 100vw;
-    background-color: #69d376;
-    padding: 5px 0;
-    margin-bottom: 15px;
-}
-
-.prueba2 {
-    width: 100vw;
-    margin: -20px;
-}
-
-.prueba3 {
-    width: 100vw;
-    margin: -1px 0px;
-    transform: scaleX(-1);
-    display: block;
-}
-
-.prueba3--invert {
-    width: 100vw;
-    margin: -1px 0px;
-    display: block;
-}
-
-.prueba4 {
-    text-align: center;
-    padding: 15px 15px 15px;
-    background-color: #69d376;
-    margin-bottom: 15px;
-    color: #FFFFFF;
-    font-weight: 800;
-}
-
-.asociaciones {
-    width: min-content;
-    height: 130px;
-    margin: auto;
-}
-
-
-.box__objetivos--tema-66 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color:#69d376
-}
-
-.aso {
-    overflow-x: scroll;
-    margin-bottom: 15px;
+.box__associations {
+    width: 100%;
+    height: max-content;
+    overflow-x: auto;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.associations {
+    height: 120px;
+    margin-bottom: 15px;
 }

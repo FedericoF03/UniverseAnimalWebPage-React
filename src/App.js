@@ -1,6 +1,7 @@
 import Index from "./Components/Index/Index";
 import React from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import './Components/Styles_general/Style.css'
 import Info from "./Components/Info/info";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";

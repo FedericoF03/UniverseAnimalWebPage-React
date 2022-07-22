@@ -1,4 +1,4 @@
-.container__box__galeria {
+.container__box__galery {
     background-image: url('../../Assets/galeria/bg8.jpg');
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@
     
 }
 
-.container__box__galeria2 {
+.galery__box__cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -24,9 +24,7 @@
     
 }
 
-
-
-.image {
+.cards {
     width: 250px;
     margin: 0px 15px;
     height: 45vh;

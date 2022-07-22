@@ -15,25 +15,28 @@ const Footer = ()=>{
                 <img className='box__red-social' src={ig}></img>
             </div>
             <div className='flex box__links'>
-                <p>Manera de colaborar</p>
+                <p className='box__links--titles'>Manera de colaborar</p>
                 <Link 
                 className='box__links--link'
                 to='/'
                 onClick={window.scrollY = "0"}
                 >Inicio</Link>
                 <Link 
+                className='box__links--link'
                 to='/info'
                 onClick={window.scrollY = "0"}
                 >Conoce sobre nosotros</Link>
                 <Link 
+                className='box__links--link'
                 to='/galeria'
                 onClick={window.scrollY = "0"}
                 >Galeria</Link>
                 <Link 
+                className='box__links--link'
                 to='/donaciones'
                 onClick={window.scrollY = "0"}
                 >Donaciones</Link>
-                <p>Contacto</p>
+                <p className='box__links--titles'>Contacto</p>
                 <div className='flex conteiner__box--contact'>
                     <div className='box--contact'>
                         <img className='box--email-wp' src={email}></img>

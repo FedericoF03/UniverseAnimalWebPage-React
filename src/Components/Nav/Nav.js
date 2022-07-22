@@ -22,7 +22,7 @@ const Nav = ()=>{
 
     return(
         <div className='container__nav'>
-            <img className='nav--logo' src={Logo}></img>
+            <Link className='nav--logo' to="/"><img  src={Logo}></img></Link>
             <img 
             className='nav--menu-Burger' 
             onClick={menuButton} 

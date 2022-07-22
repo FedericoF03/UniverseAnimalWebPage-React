@@ -1,6 +1,4 @@
 
-/*Mobile*/
-
 .container__nav {
     height: 12vh;
     background-color: #ffffff;
@@ -10,7 +8,8 @@
 }
 
 .nav--logo {
-    height: 98%;
+    height: 94%;
+    display: flex;
 }
 
 .nav--menu-Burger {
@@ -34,17 +33,8 @@
     z-index: 99;
     opacity: 0;
     display: flex;
-    transition: clip-path 0.8s, opacity 0.5s;
+    transition: clip-path 0.4s, opacity 0.4s;
     flex-direction: column;
-}
-
-a:visited {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 .nav__list {
