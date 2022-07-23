@@ -1,6 +1,7 @@
+import './Style.css';
+import './Style-Desktop.css';
 import Logo from '../../Assets/Logo-UAWP-letras.jpg';
 import MenuBurger from '../../Assets/lines_menu_burger_icon_123889.png';
-import './Style.css';
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 

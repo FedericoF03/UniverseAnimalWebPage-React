@@ -1,4 +1,5 @@
 import './Style.css'
+import './Style-Tablet.css'
 import images from '../../utils/image_object'
 
 const Info = ()=>{

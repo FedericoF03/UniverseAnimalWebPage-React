@@ -51,6 +51,7 @@
     text-decoration: none;
 }
 
-.nav__list:hover {
+.nav__list:hover,.nav__list:active  {
     background-color: #36561f;
+    transition: background-color 0.5s;
 }

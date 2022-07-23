@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import '../Syle.css';
+import '../Style.css';
 
 const NoticesApi = ({title, description, url, source, img})=>{
 

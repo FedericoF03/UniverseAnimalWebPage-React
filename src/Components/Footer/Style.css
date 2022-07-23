@@ -41,6 +41,7 @@
 
 .box__links--link:hover {
     color: #ffffff;
+    transition: color, 0.5s;
 }
 
 .box__links--titles {
