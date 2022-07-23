@@ -1,16 +1,24 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './Style.css';
 
 const animalsGalery = require.context('../../Assets/galeria', true);
 let url = "http://localhost:3000/galeria.json"
 
 const Galeria = ()=>{
-    const [galeryDinamic, setGaleryDinamic] = useState()
+    const [galeryDinamic, setGaleryDinamic] = useState(null)
     const [loading, setLoading] = useState(false)
+    const [modalOpen, setModalOpen] = useState(false)
+    const [modal, setModal] = useState("galeria-img-test")
+
+    const modalRef = useRef()
 
     useEffect(()=>{
         peticion()
     }, [])
+
+    useEffect(()=>{
+        
+    }, [modalOpen])
 
     let peticion =  async ()=>{
         let resJ = await fetch(url)
@@ -28,13 +36,31 @@ const Galeria = ()=>{
                 ?galeryDinamic.imagen.map(el=>(
                 <div className='box__cards' key={el.id}>
                     <button 
-                    onClick={""}
+                    onClick={()=>{
+                        setModal(el.img)
+                        modalRef.current.style.display = "flex"
+                        setModalOpen(true)
+                    }}
                     className='galery__box__button' >+</button>
                     <img className='cards' src={animalsGalery(`./${el.img}.jpeg`)}></img>
                 </div>
                 ))
                 :"cargando"
             }</div>
+            <div>
+                {
+                    loading
+                    ?<div 
+                    onClick={()=>{
+                        modalRef.current.style.display = "none"
+                        setModalOpen(false)
+                    }}
+                    ref={modalRef} className='modal'>
+                        <img className='modal--img' src={animalsGalery(`./${modal}.jpeg`)}></img>
+                    </div>
+                    : <div className='modal'>No hay imagenes disponibles.</div>
+                }
+            </div>
         </div>
     )
 }
