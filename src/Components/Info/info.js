@@ -1,5 +1,7 @@
 import './Style.css'
 import './Style-Tablet.css'
+import './Style-Notebook.css';
+import './Style-Desktop.css';
 import images from '../../utils/image_object'
 
 const Info = ()=>{

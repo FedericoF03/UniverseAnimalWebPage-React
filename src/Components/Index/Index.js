@@ -1,5 +1,6 @@
 import './Style.css';
 import './Style-Tablet.css';
+import './Style-Notebook.css';
 import './Style-Desktop.css';
 import NoticesApi from './NoticesApi/NoticeApi';
 import React, { useEffect, useState } from "react";
