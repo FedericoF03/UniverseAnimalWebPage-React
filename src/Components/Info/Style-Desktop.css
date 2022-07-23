@@ -1,0 +1,44 @@
+@media screen and (min-width: 1025px) {
+    .box__info--title {
+        font-size: 5.5em;
+        color: rgb(145, 150, 150);
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 10%;
+        margin-bottom: -230px;
+        z-index: 999;
+    }
+
+    .box__mision--img {
+        width: 70vw;
+        height: 70vh;
+    }
+
+    .box__objectives--img {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .box__objectives{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 25px;
+        margin-top: 20px;
+    }
+
+    .box__objectives--list {
+        font-size: 1em;
+        height: min-content;
+        margin: 0;
+        display: flex;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+
+    .box__vision--img {
+        height: 80vh;
+    }
+}
