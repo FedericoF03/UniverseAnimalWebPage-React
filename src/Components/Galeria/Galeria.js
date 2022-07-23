@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import './Style.css';
+import './Style-desktop.css';
 
 const animalsGalery = require.context('../../Assets/galeria', true);
 let url = "http://localhost:3000/galeria.json"
