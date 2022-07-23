@@ -1,0 +1,47 @@
+@media screen and (min-width: 426px ) and (max-width: 650px ) {
+    
+    .box__info--title {
+        font-size: 3.5em;
+        color: rgb(145, 150, 150);
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 10%;
+        margin-bottom: -100px;
+    }
+
+    .box__info--svg-decoration {
+        margin: -5px 0px;
+    }
+
+}
+
+@media screen and (min-width: 651px ) and (max-width: 768px ) {
+    
+    .box__info--title {
+        font-size: 4.5em;
+    }
+
+    .box__info--svg-decoration {
+        margin: -5px 0px;
+    }
+
+    .box__mision--img {
+        height: 70vh;
+    }
+
+    .box__info--text {
+        font-size: 1.3em;
+    }
+
+    .box__objectives--img {
+        height: 70vw;  
+    }
+
+    .box__objectives--list {
+        font-size: 1.3em;
+    }
+
+    .box__vision--img {
+        height: 70vh;
+    }
+}

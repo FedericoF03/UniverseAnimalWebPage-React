@@ -1,0 +1,19 @@
+@media screen and (min-width: 426px ) and (max-width: 768px ) {
+    .hero-img {
+        height: 50vh;
+    }
+
+    .proyects {
+        height: 300px;
+        width: 350px;
+    }
+
+    .box__logo--aso {
+        width: 30%;
+    }
+
+    .notice--description {
+        height: max-content;
+    }
+
+}
